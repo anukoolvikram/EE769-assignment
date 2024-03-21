@@ -9,7 +9,7 @@ st.title('White Wine Quality Predictor (SVR)')
 
 @st.cache_data # Caching with corrected decorator
 def load_data():
-  white_wine_data = pickle.load(open('white_wine_data.pkl', 'rb'))
+  white_wine_data = pickle.load(open('data.pkl', 'rb'))
   return white_wine_data
 
 # Load data
